@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario en HTML</h1>
+    <form action="#" method="get">
+        Name:
+<input type="text" name="First name" placeholder="Pon tu nombre"/>
+<br/>
+Apellido:
+<input type="text" name="surname" placeholder="Pon tu apellido"/>
+<br/>
+Correo:
+<input type="email" correo="nombre" placeholder="Pon tu correo"/>
+<br/>
+Contraseña:
+<input type="password" name="contraseña" placeholder="Pon tu contraseña"/>
+<br/>
+Teléfono: 
+<input type="number" name="Teléfono" placeholder="telefono"/>
+<br/>
+<input type="submit" value="enviar"/>
+<br/>
+<input type="reset" value="Resetear"/>
+    </form>
+<hr/>
+    <form>
+        Elige tu género:
+        <br/>
+        <input type="radio" name="genero" id="Femenino" checked/> Femenino <br/>
+        <input type="radio" name="genero" id="Masculino"/> Masculino <br/>
+        <input type="radio" name="genero" id="Otros"/> Otros  <br/>
+        <br/><br/>
+        Elige tu vehiculo
+        <br/> 
+        <input type="checkbox" name="vehículo" value="coche"/> Coche <br/>
+        <input type="checkbox" name="vehículo2" value="moto"/> Moto <br/>
+        <input type="checkbox" name="vehículo3" value="bici"/> Bici <br/>
+        <br/><br/>
+        Elige tu Pais<br/>
+
+       <select name="Pais">
+        <optogroup label="europa">
+        <option value="ES">España</option>
+            <option value="IT">Italia</option>
+            <option value="FR">Francia</option>
+        </optogroup>
+        <optogroup label="America">
+            <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="PE">Perú</option>
+            </optogroup>
+            </select>
+            <hr/>
+      <fieldset>
+            <legend>Datos personales</legend><br/>
+            <input type="text" name="First name" placeholder="Pon tu nombre"/><br/>
+            <input type="text" name="Surname" placeholder="Pon tu apellido"/><br/>
+        </fieldset>
+        <hr/>
+
+        <textarea name="message" rows="20" cols="40">
+            esto es un mensaje de prueba escrito en un testarea></textarea>
+        <br/>
+
+        Tu cumpleaños:
+        <input type="date" name="birthday"/><br/>
+        <input type="file" name="my file"/><br/>
+
+        <button type="submit">Enviar</button>
+        <input type="reset" value="Restablecer"><br/>
+</button>
+
+<form>
+    <label for="nombre">
+        Nombre 
+        <input type="text" name="nombre" id="nombre" placeholder="Incert your name"/>
+    </label>
+    Apellido 
+    <input type="text" name="apellido" id="apellido" placeholder="Incert your surname"/>
+    <button type="submit"> Enviar</button>
+</label>
+
+</form>
+<h3>Loging</h3>
+<form>
+<hr/>
+<input type="email" name="email" placeholder="incert your email"/>
+</form>
+
+
+
+
+</body>
+</html>
